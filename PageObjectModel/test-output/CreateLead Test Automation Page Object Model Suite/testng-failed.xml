@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [CreateLead Test Automation Page Object Model Suite]">
+  <parameter name="url" value="http://leaftaps.com/opentaps/control/main"/>
+  <test thread-count="5" verbose="5" name="CreateLead Test Automation Page Object Model Test Cases(failed)">
+    <classes>
+      <class name="org.testleaf.qa.testcases.CreateLeadTestCases">
+        <methods>
+          <include name="runCreateLeadTestCases"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="setCeateLeadData"/>
+        </methods>
+      </class> <!-- org.testleaf.qa.testcases.CreateLeadTestCases -->
+    </classes>
+  </test> <!-- CreateLead Test Automation Page Object Model Test Cases(failed) -->
+</suite> <!-- Failed suite [CreateLead Test Automation Page Object Model Suite] -->
