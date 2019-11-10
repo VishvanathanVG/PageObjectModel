@@ -29,6 +29,7 @@ import org.testleaf.qa.api.design.Element;
 
 public class SeleniumBase implements Browser, Element {
 
+	//author
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
 	public String Firstname;
